@@ -25,14 +25,14 @@ export default function SteelScroll() {
         <div className="max-w-7xl mx-auto w-full px-6 md:px-12 pb-12 md:pb-16">
 
           {/* Bottom Row */}
-          <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6">
+          <div className="flex items-end justify-between gap-6">
 
-            {/* Heading */}
-            <h2 className="font-heading text-3xl md:text-6xl text-white font-bold leading-tight drop-shadow-[0_4px_24px_rgba(0,0,0,0.8)] max-w-2xl">
+            {/* Heading - SINGLE LINE */}
+            <h2 className="font-heading text-2xl md:text-5xl lg:text-6xl text-white font-bold leading-tight drop-shadow-[0_4px_24px_rgba(0,0,0,0.8)] whitespace-nowrap">
               Building India&apos;s Future
             </h2>
 
-            {/* CTA Button */}
+            {/* Button */}
             <button className="px-6 py-3 md:px-8 md:py-4 bg-accent-yellow text-black font-bold text-xs md:text-lg uppercase tracking-wider rounded-sm shadow-[0_0_30px_rgba(234,179,8,0.35)] hover:scale-105 transition duration-300 whitespace-nowrap">
               Explore Our Products
             </button>
